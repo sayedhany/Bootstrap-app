@@ -1,0 +1,205 @@
+body {
+  margin-top: 50px;
+  height: 4000px;
+}
+/* Start Overridding bootstrap */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #e41b19;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #d0d0d0;
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #d0d0d0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-brand span {
+  color: #e41b19;
+}
+
+.dropdown-menu {
+  background-color: #101010;
+  border-top: 3px solid #e41b19;
+  min-width: 200px;
+  transition: all 0.5s ease-in;
+}
+.navbar-right .dropdown-menu {
+  left: 0;
+  right: auto;
+}
+.dropdown-menu > li > a {
+  color: #d0d0d0;
+  padding: 6px 20px;
+  transition: padding 0.5s ease;
+  -webkit-transition: padding 0.5s ease;
+  -moz-transition: padding 0.5s ease;
+  -o-transition: padding 0.5s ease;
+}
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
+  background: #e41b19;
+  color: #d0d0d0;
+  padding-left: 25px;
+}
+.dropdown-menu .divider {
+  background-color: #871818;
+}
+
+/*carousel override.*/
+.carousel-caption {
+  bottom: 80px;
+  background-color: rgba(3, 3, 3, 0.3);
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+}
+.carousel-indicators li.active {
+  width: 17px;
+  height: 17px;
+  background-color: #e41b19;
+}
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.about h1 {
+  font-weight: bold;
+}
+.about .lead {
+  color: #888;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.about h1 span,
+.about h3 span {
+  color: #e41b19;
+}
+
+.features {
+  background-color: #eee;
+  padding: 50px 0;
+}
+.features h1 {
+  margin-bottom: 50px;
+}
+.features .feat p {
+  line-height: 2em;
+}
+.features .feat {
+  margin-bottom: 30px;
+}
+.features .feat span.glyphicon {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #666;
+}
+.testimonials {
+  padding: 50px 0;
+}
+.testimonials .lead {
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+.testimonials h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.testimonials span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e41b19;
+}
+.testimonials .carousel-inner {
+  min-height: 130px;
+}
+.testimonials .carousel-indicators {
+  position: static;
+  width: 100%;
+  margin-left: auto;
+  padding-top: 20px;
+  /* border: 1px solid red; */
+}
+.testimonials .carousel-indicators li {
+  text-indent: 0;
+  width: 80px;
+  height: 80px;
+  opacity: 0.5;
+  border: 2px solid #eee;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 5px;
+  transition: padding 0.5s ease;
+  -webkit-transition: padding 0.5s ease;
+  -moz-transition: padding 0.5s ease;
+  -o-transition: padding 0.5s ease;
+}
+.testimonials .carousel-indicators li.active {
+  width: 80px;
+  height: 80px;
+  opacity: 1;
+  background: null;
+  border: 2px solid #e41b19;
+}
+.testimonials .carousel-indicators li img {
+  max-width: 100%;
+}
+
+.price-table {
+  background: #eee;
+  padding: 40px 0;
+}
+.price-table h1 {
+  margin-bottom: 40px;
+}
+.price-table .price-box {
+  padding: 10px;
+  background: #fff;
+  border: 1px soild #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.price-table .price-box h3 {
+  margin: 5px 0 15px;
+}
+.price-table .price-box:hover p {
+  transform: scale(1.1) rotate(360deg);
+  border: 2px solid #dfdfdf;
+}
+.price-table .price-box p {
+  font-size: 35px;
+  font-weight: bold;
+  color: #666;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.7s;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  border: 2px solid #fff;
+}
+.price-table .price-box ul {
+  line-height: 250%;
+  font-size: 18px;
+}
+.price-table .price-box a {
+  margin-bottom: 5px;
+}
+.price-table .price-box .divider {
+  height: 1px;
+  background-color: #666;
+}
