@@ -1,6 +1,6 @@
 body {
   margin-top: 50px;
-  height: 4000px;
+  height: 9000px;
 }
 /* Start Overridding bootstrap */
 .navbar-inverse .navbar-nav > .active > a,
@@ -202,4 +202,37 @@ body {
 .price-table .price-box .divider {
   height: 1px;
   background-color: #666;
+}
+.our-team {
+  background: url("../assets/animated.gif") no-repeat center center fixed;
+  min-height: 600px;
+}
+.our-team h1 {
+  margin-bottom: 60px;
+}
+.our-team .team {
+  background: rgba(2, 2, 2, 0.8);
+  min-height: 600px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.center-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-team .person {
+  margin-bottom: 40px;
+}
+
+.our-team .person i {
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.our-team .person i:hover {
+  transform: scale(1.1) rotate(180deg);
 }
