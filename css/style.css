@@ -206,6 +206,7 @@ body {
 .our-team {
   background: url("../assets/animated.gif") no-repeat center center fixed;
   min-height: 600px;
+  background-size: cover;
 }
 .our-team h1 {
   margin-bottom: 60px;
@@ -226,13 +227,59 @@ body {
 
 .our-team .person {
   margin-bottom: 40px;
+  color: #aaa;
 }
 
 .our-team .person i {
   margin: 10px;
   cursor: pointer;
   transition: all 0.5s ease;
+  color: #aaa;
 }
 .our-team .person i:hover {
   transform: scale(1.1) rotate(180deg);
+}
+.subscribe {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #eee;
+}
+.subscribe h2 {
+  color: #888;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.subscribe p {
+  margin-bottom: 30px;
+}
+.statistics {
+  background: url("../assets/stats.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 300px;
+  position: relative;
+}
+.statistics .data {
+  background: rgba(2, 2, 2, 0.8);
+  min-height: 300px;
+  color: #cccccc;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.statistics .stats {
+  transition: all 0.5s ease;
+  margin-bottom: 30px;
+}
+.statistics .stats:hover {
+  color: #fff;
+}
+.statistics .data h2 {
+  margin-bottom: 40px;
+}
+.statistics .data p {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.statistics .data span {
+  font-size: 16px;
 }
