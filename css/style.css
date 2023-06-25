@@ -1,6 +1,5 @@
 body {
   margin-top: 50px;
-  height: 9000px;
 }
 /* Start Overridding bootstrap */
 .navbar-inverse .navbar-nav > .active > a,
@@ -361,10 +360,9 @@ body {
   opacity: 1;
 }
 .footer {
-  background: #333;
+  background: #111;
   color: #aaa;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .footer a {
@@ -404,4 +402,14 @@ body {
   background: rgba(0, 0, 0, 0.2);
   border: 1px solid #444;
   margin-bottom: 5px;
+}
+.footer .copyright {
+  background: #333;
+  color: #aaa;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.footer .copyright span {
+  color: #0895d1;
 }
