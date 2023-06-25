@@ -309,3 +309,99 @@ body {
   text-align: left;
   text-indent: 5px;
 }
+.contact-us {
+  background: url("../assets/contact-us.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 300px;
+}
+.contact-us .fields {
+  background: rgba(9, 9, 9, 0.5) no-repeat center center fixed;
+  min-height: 300px;
+  background-size: cover;
+  color: #ddd;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contact-us p {
+  margin-bottom: 40px;
+}
+
+.contact-us input,
+.contact-us textarea {
+  background-color: rgba(82, 78, 78, 0.5);
+  color: #fff;
+  border: none;
+}
+.contact-us button:focus-visible,
+.contact-us button:focus:active,
+.contact-us button:focus,
+.contact-us button:active {
+  outline: 0;
+  outline-offset: 0;
+}
+.contact-us textarea {
+  height: 108px;
+  margin-bottom: 14px;
+}
+
+/* ---------- */
+.our-clients {
+  background: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.our-clients img {
+  opacity: 0.4;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease;
+  cursor: pointer;
+}
+.our-clients img:hover {
+  opacity: 1;
+}
+.footer {
+  background: #333;
+  color: #aaa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  color: #aaa;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer h3 {
+  color: #0895d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+.footer .three-columns {
+  overflow: hidden;
+}
+.footer .three-columns li {
+  width: 33.3333%;
+  padding: 5px 0;
+  float: left;
+}
+.footer .social-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+  display: flex;
+}
+.footer .social-list li {
+  /* float: left; */
+  opacity: 0.7;
+  transition: all 0.2s ease-in;
+  margin-right: 4px;
+}
+.footer .social-list li:hover {
+  opacity: 1;
+}
+.footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
