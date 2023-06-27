@@ -4,6 +4,43 @@ body {
 
   font-family: "Ubuntu", sans-serif;
 }
+.option-box {
+  position: fixed;
+  top: 100px;
+  z-index: 9999;
+  left: 0;
+}
+.option-box .color-option {
+  float: left;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #e41b19;
+  transition: all 0.2s ease-out;
+  display: none;
+}
+.option-box .color-option li {
+  width: 20px;
+  height: 20px;
+  background: #f00;
+  display: inline-block;
+  margin-right: 3px;
+}
+.option-box .gear-check {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.1s ease-in;
+  padding: 5px;
+  background: #e41b17;
+  color: #fff;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+.option-box .gear-check:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
 /* Start Overridding bootstrap */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:focus,
