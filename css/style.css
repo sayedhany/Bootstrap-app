@@ -99,7 +99,9 @@ body {
   padding-left: 20px;
   border-radius: 20px;
 }
-
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+  width: 100%;
+}
 .carousel-indicators li {
   width: 15px;
   height: 15px;
@@ -517,3 +519,22 @@ body {
 }
 
 /* End Section Loading */
+/* Start Scrollup */
+
+#scroll-top {
+  width: 50px;
+  height: 40px;
+  color: #ddd;
+  background-color: #272727;
+  text-align: center;
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  z-index: 9999;
+  display: none;
+  cursor: pointer;
+}
+
+#scroll-top:hover {
+  background-color: #444;
+}
