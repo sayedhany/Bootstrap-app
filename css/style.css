@@ -3,7 +3,7 @@ body {
   margin-top: 50px;
 
   font-family: "Ubuntu", sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .option-box {
   position: fixed;
@@ -99,7 +99,8 @@ body {
   padding-left: 20px;
   border-radius: 20px;
 }
-.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img {
   width: 100%;
 }
 .carousel-indicators li {

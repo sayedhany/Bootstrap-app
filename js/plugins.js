@@ -37,20 +37,20 @@ $(document).ready(function () {
   });
 });
 
-$(window).load(function () {
-  "use strict";
+// $(window).load(function () {
+//   "use strict";
 
-  // Loading Elements
+//   // Loading Elements
 
-  $(".loading-overlay .spinner").fadeOut(2000, function () {
-    // Show The Scroll
+//   $(".loading-overlay .spinner").fadeOut(2000, function () {
+//     // Show The Scroll
 
-    $("body").css("overflow", "auto");
+//     $("body").css("overflow", "auto");
 
-    $(this)
-      .parent()
-      .fadeOut(2000, function () {
-        $(this).remove();
-      });
-  });
-});
+//     $(this)
+//       .parent()
+//       .fadeOut(2000, function () {
+//         $(this).remove();
+//       });
+//   });
+// });
