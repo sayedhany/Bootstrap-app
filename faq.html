@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bootstrap App</title>
+    <link
+      rel="stylesheet"
+      href="assets1/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/default_theme.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <!-- <link rel="stylesheet" href="css/animate.css" /> -->
+    <!-- <link rel="stylesheet" href="css/blue_theme.css" /> -->
+  </head>
+  <body>
+    <!-- Beggining of navbar -->
+    <section class="option-box">
+      <div class="color-option">
+        <h4>Color option</h4>
+        <ul class="list-unstyled">
+          <li data-value="css/default_theme.css"></li>
+          <li data-value="css/purple_theme.css"></li>
+          <li data-value="css/blue_theme.css"></li>
+          <li data-value="css/yellow_theme.css"></li>
+        </ul>
+      </div>
+      <i class="fa fa-gear fa-3x gear-check"></i>
+    </section>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Sayed <span>inc.</span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse navbar-right"
+          id="bs-example-navbar-collapse-1"
+        >
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="faq.html">FAQ</a></li>
+            <li class="dropdown">
+              <a
+                href="#"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Services <span class="caret"></span
+              ></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Web Hosting</a></li>
+                <li><a href="#">Gamming</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+    <!-- Start Breadcrumb -->
+
+    <div class="breadcrumb-holder">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">FAQ</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- End Breadcrumb -->
+
+    <!-- Start FAQ Intro -->
+
+    <section class="faq text-center">
+      <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <hr />
+        <p class="lead">
+          Here You Will Find All Questions You Are Searching For And The Full
+          Knowledgebase
+        </p>
+      </div>
+    </section>
+
+    <!-- End FAQ Intro -->
+
+    <!-- Start FAQ Accordion -->
+
+    <section class="faq-questions">
+      <div class="container">
+        <div
+          class="panel-group"
+          id="accordion"
+          roles="tablist"
+          aria-multiselectable="true"
+        >
+          <!-- Start Question 1 -->
+
+          <div class="panel panel-default">
+            <div class="panel-heading" roles="tab" id="heading-one">
+              <h4 class="panel-title">
+                <a
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapse-one"
+                  aria-expanded="true"
+                  arial-controls="collapse-one"
+                >
+                  #1 How To Use Bootstrap Version 3.0?
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapse-one"
+              class="panel-collapse collapse"
+              roles="tabpanel"
+              aria-labelledby="heading-one"
+            >
+              <div class="panel-body">
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+              </div>
+            </div>
+          </div>
+
+          <!-- End Question 1 -->
+
+          <!-- Start Question 2 -->
+
+          <div class="panel panel-default">
+            <div class="panel-heading" roles="tab" id="heading-two">
+              <h4 class="panel-title">
+                <a
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapse-two"
+                  aria-expanded="true"
+                  arial-controls="collapse-two"
+                >
+                  #2 How To Use Media Queries?
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapse-two"
+              class="panel-collapse collapse"
+              roles="tabpanel"
+              aria-labelledby="heading-two"
+            >
+              <div class="panel-body">
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+              </div>
+            </div>
+          </div>
+
+          <!-- End Question 2 -->
+
+          <!-- Start Question 3 -->
+
+          <div class="panel panel-default">
+            <div class="panel-heading" roles="tab" id="heading-three">
+              <h4 class="panel-title">
+                <a
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapse-three"
+                  aria-expanded="true"
+                  arial-controls="collapse-three"
+                >
+                  #3 How To Create Your Own Slider?
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapse-three"
+              class="panel-collapse collapse"
+              roles="tabpanel"
+              aria-labelledby="heading-three"
+            >
+              <div class="panel-body">
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+              </div>
+            </div>
+          </div>
+
+          <!-- End Question 3 -->
+
+          <!-- Start Question 4 -->
+
+          <div class="panel panel-default">
+            <div class="panel-heading" roles="tab" id="heading-four">
+              <h4 class="panel-title">
+                <a
+                  class="collapsed"
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapse-four"
+                  aria-expanded="true"
+                  arial-controls="collapse-four"
+                >
+                  #4 How To Create Your Own Accordion?
+                </a>
+              </h4>
+            </div>
+            <div
+              id="collapse-four"
+              class="panel-collapse collapse"
+              roles="tabpanel"
+              aria-labelledby="heading-four"
+            >
+              <div class="panel-body">
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+                This Is Test Message Describe The Answer Of The First Question
+              </div>
+            </div>
+          </div>
+
+          <!-- End Question 4 -->
+        </div>
+      </div>
+    </section>
+
+    <!-- End FAQ Accordion -->
+
+    <!-- Start Ultimate Footer Section -->
+
+    <!-- End Ultimate Footer Section -->
+
+    <!-- Start Scroll To Top -->
+
+    <div id="scroll-top">
+      <i class="fa fa-chevron-up fa-3x"></i>
+    </div>
+    <!-- End ABout CEO -->
+    <!-- --------------- -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <h3>SiteMap</h3>
+            <ul class="list-unstyled three-columns">
+              <li>Home</li>
+              <li>About</li>
+              <li>Company</li>
+              <li>Code</li>
+              <li>Design</li>
+              <li>Host</li>
+              <li>Solutions</li>
+              <li>Sitemap</li>
+              <li>Contact</li>
+            </ul>
+            <ul class="list-unstyled social-list">
+              <li>
+                <img src="assets/social-bookmarks/email.png" alt="email" />
+              </li>
+              <li>
+                <img
+                  src="assets/social-bookmarks/facebook.png"
+                  alt="facebook"
+                />
+              </li>
+              <li>
+                <img
+                  src="assets/social-bookmarks/gplus.png"
+                  alt="google plus"
+                />
+              </li>
+              <li>
+                <img
+                  src="assets/social-bookmarks/pinterest.png"
+                  alt="pinterest"
+                />
+              </li>
+              <li><img src="assets/social-bookmarks/rss.png" alt="rss" /></li>
+              <li>
+                <img src="assets/social-bookmarks/twitter.png" alt="twitter" />
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h3>Lastest Articles</h3>
+            <div class="media">
+              <a href="#" class="pull-left">
+                <img
+                  src="assets/articles/01.jpg"
+                  alt="1"
+                  class="media-object"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Programming</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+            <div class="media">
+              <a href="#" class="pull-left">
+                <img
+                  src="assets/articles/02.jpg"
+                  alt="1"
+                  class="media-object"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Web Design</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+            <div class="media">
+              <a href="#" class="pull-left">
+                <img
+                  src="assets/articles/03.jpg"
+                  alt="1"
+                  class="media-object"
+                />
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Coding</h4>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h3>Our Awesome Work</h3>
+            <img src="assets/work/01.jpg" alt="1" class="img-thumbnail" /><img
+              src="assets/work/02.jpg"
+              alt="2"
+              class="img-thumbnail"
+            /><img src="assets/work/03.jpg" alt="3" class="img-thumbnail" /><img
+              src="assets/work/04.jpg"
+              alt="4"
+              class="img-thumbnail"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="copyright text-center">
+        Copyright &copy; <span id="current-year"></span> Sayed Hany Inc.
+      </div>
+    </section>
+    <!-- Start Section Loading -->
+
+    <!-- <div class="loading-overlay">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div> -->
+
+    <!-- End Section Loading -->
+
+    <!-- Start Scroll To Top -->
+
+    <div id="scroll-top">
+      <i class="fa fa-chevron-up fa-3x hvr-buzz-out"></i>
+    </div>
+
+    <!-- End Scroll To Top -->
+    <script src="./assets1/respond.js/dest/respond.min.js"></script>
+    <script src="./js/html5shiv.min.js"></script>
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets1/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/plugins.js"></script>
+  </body>
+</html>
